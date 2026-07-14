@@ -1,73 +1,60 @@
-# Excel Portfolio Datasets
+# Sales Performance Analysis
 
-This repository contains two dataset options for the Excel portfolio project.
+## Project Overview
 
-Students can choose one dataset and use it to build their own Excel data analysis portfolio.
+This project analyzes sales performance data to understand revenue drivers, profit patterns, regional performance, and data quality issues that may affect business decisions.
 
-## Dataset Options
+## Business Objective
 
-### 1. Sales Performance Analysis
+The objective is to identify which product categories, regions, and sales channels contribute the most to clean revenue and profit, while also documenting data quality issues that should be reviewed before making dashboard-based decisions.
 
-File:
+## Dataset
 
-`datasets/dataset-1-sales-performance.xlsx`
+The dataset contains order-level sales records with fields such as order date, customer name, region, channel, order status, product, quantity, revenue, cost, profit, and sales representative.
 
-Use this dataset if you want to analyze:
+The dataset includes intentional data quality issues such as inconsistent text formatting, date formatting differences, missing values, duplicate order IDs, and some numeric values stored as text.
 
-- sales revenue
-- profit
-- product category performance
-- sales region
-- sales channel
-- order status
-- monthly business trend
+## Tools Used
 
-Recommended portfolio direction:
+- Microsoft Excel
+- Excel formulas
+- Summary tables
+- PivotTable-style analysis
+- Excel dashboard
+- GitHub documentation
 
-> Analyze sales performance to identify revenue drivers, profit patterns, and business areas that need attention.
+## Analysis Process
 
-### 2. Customer Orders & Retention Analysis
+1. Reviewed raw sales order data and data dictionary.
+2. Standardized text fields such as region, channel, status, and category.
+3. Converted date and numeric fields into analysis-ready values.
+4. Reviewed duplicate orders, missing values, and unusual status records.
+5. Built summary analysis for revenue, profit, order count, average order value, and margin.
+6. Created a dashboard preview and business insights.
 
-File:
+## Key Insights
 
-`datasets/dataset-2-customer-orders.xlsx`
+- Electronics generated the highest clean revenue.
+- Stationery had the strongest profit margin.
+- Makassar was the strongest region by clean revenue.
+- 105 rows required review before being used for dashboard decisions.
 
-Use this dataset if you want to analyze:
+## Dashboard Preview
 
-- customer segments
-- order value
-- acquisition channel
-- product category
-- delivery status
-- satisfaction
-- customer behavior
+![Dashboard Preview](dashboard-preview.png?raw=true&v=4)
 
-Recommended portfolio direction:
+## Files
 
-> Analyze customer order behavior to understand customer value, satisfaction, and retention opportunities.
+- `sales-performance-dataset.xlsx`: source dataset used for the project
+- `sales-performance-analysis.xlsx`: Excel workbook with cleaned data, summaries, dashboard, and insights
+- `dashboard-preview.png`: dashboard preview image
+- `data-cleaning-log.md`: business-style cleaning documentation
+- `business-insights.md`: summary of key findings and recommendations
 
-## What To Do
+## Summary Metrics
 
-1. Choose one dataset.
-2. Review the raw data.
-3. Check the data dictionary.
-4. Read the suggested business questions.
-5. Complete the cleaning log in business language.
-6. Build your Excel analysis workbook.
-7. Create a dashboard or summary view.
-8. Write 2-3 business insights.
-9. Prepare your GitHub portfolio repository.
-
-## Portfolio Reminder
-
-Your final portfolio should explain:
-
-- business objective
-- dataset overview
-- data preparation notes
-- analysis process
-- dashboard or summary result
-- key insights
-- files included in the repository
-
-Keep the explanation clear, professional, and easy to understand.
+| Metric | Value |
+|---|---:|
+| Clean Revenue | Rp 1.430.336.900 |
+| Clean Profit | Rp 423.861.900 |
+| Clean Orders | 620 |
