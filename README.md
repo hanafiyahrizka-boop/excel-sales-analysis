@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project analyzes sales performance data to understand revenue drivers, profit patterns, regional performance, and data quality issues that may affect business decisions.
+This project analyzes sales performance data to understand revenue drivers, profit patterns, regional performance.
 
 ## Business Objective
 
-The objective is to identify which product categories, regions, and sales channels contribute the most to clean revenue and profit, while also documenting data quality issues that should be reviewed before making dashboard-based decisions.
+The objective is to identify which product name, regions, and sales channels contribute the most to clean revenue and profit, while also documenting data quality issues that should be reviewed before making dashboard-based decisions.
 
 ## Dataset
 
@@ -34,14 +34,14 @@ The dataset includes intentional data quality issues such as inconsistent text f
 
 ## Key Insights
 
-- Electronics generated the highest clean revenue.
-- Stationery had the strongest profit margin.
+- Monitors 24 Inch generated the highest clean revenue.
+- Monitors 24 Inch had the strongest profit margin.
 - Makassar was the strongest region by clean revenue.
-- 105 rows required review before being used for dashboard decisions.
+- 66 rows required review before being used for dashboard decisions.
 
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard-preview.png?raw=true&v=4)
+![Dashboard Preview](			)
 
 ## Files
 
@@ -55,6 +55,6 @@ The dataset includes intentional data quality issues such as inconsistent text f
 
 | Metric | Value |
 |---|---:|
-| Clean Revenue | Rp 1.430.336.900 |
-| Clean Profit | Rp 423.861.900 |
-| Clean Orders | 620 |
+| Clean Revenue | Rp 1.497.555.824 |
+| Clean Profit | Rp 410.559.824 |
+| Clean Orders | 659 |
