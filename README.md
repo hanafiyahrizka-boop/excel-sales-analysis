@@ -41,7 +41,8 @@ The dataset includes intentional data quality issues such as inconsistent text f
 
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard .png	)
+<img width="635" height="430" alt="dashboard " src="https://github.com/user-attachments/assets/f03c76f2-4755-4864-819e-c0f547ef18d6" />
+
 
 ## Files
 
